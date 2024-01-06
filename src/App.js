@@ -37,6 +37,7 @@ const App = () => {
   }, [cells])
   return (
     <div className="app">
+      <h1 className="header">TikTok Game</h1>
       <div className='gameboard'>
         {cells.map((cell, index) => <Cell key={index} id={index} cell={cell} setCells={setCells} go={go} setGo={setGo} cells={cells} winningMessage={winningMessage} />)}
       </div>

@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Signika+Negative:wght@300&display=swap');
+
 .app {
   margin: 0;
+  font-family: 'Fira Code', monospace;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: column;
+}
+
+.header {
+  color: darkcyan;
 }
 
 .gameboard {
